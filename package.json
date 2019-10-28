@@ -1,0 +1,21 @@
+{
+  "name": "typeorm-issue-4947",
+  "version": "1.0.0",
+  "description": "Basic demo of using Typeorm subscribers",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec 'ts-node' src/index.ts localhost 8080"
+  },
+  "dependencies": {
+    "@types/node": "10.12.18",
+    "express": "4.16.4",
+    "reflect-metadata": "0.1.13",
+    "ts-node": "8.0.1",
+    "typeorm": "0.2.20",
+    "typescript": "3.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
